@@ -12,3 +12,7 @@ expect(response.text).toBeEqual('Hello World');
   });
 });
 
+it('handles invalid requests', async () => {
+  const response = await request.get('/foo');
+  expect(response.status).toEqual(404);
+})
