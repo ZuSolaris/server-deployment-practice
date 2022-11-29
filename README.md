@@ -44,4 +44,4 @@ PORT: 3001
 
 /* : If the page is not available then an error flag is thrown. 
 
-![Workflow](Wrkflw.PNG)
+![Workflow](workflow.PNG)
